@@ -222,7 +222,6 @@ if step_type == "question":
     with c1:
         if st.button("Volgende", use_container_width=True):
             st.session_state.answers[step_id] = answer.strip()
-            st.session_state[f"answer_{step_id}"] = ""
             st.session_state.current_step = next_step
             st.rerun()
 
