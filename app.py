@@ -16,8 +16,17 @@ SUMMARY_FILE = "Sheet 2 - Summary Mappings ULTRAKORTE VERSIE DEF.csv"
 questions_df = pd.read_csv(QUESTIONS_FILE).fillna("")
 summary_df = pd.read_csv(SUMMARY_FILE).fillna("")
 
-questions = {row["StepID"]: row for _, row in questions_df.iterrows()}
-summaries = {row["SummaryID"]: row for _, row in summary_df.iterrows()}
+questions = {
+    str(row["StepID"]).strip(): row.to_dict()
+    for _, row in questions_df.iterrows()
+    if str(row["StepID"]).strip() != ""
+}
+
+summaries = {
+    str(row["SummaryID"]).strip(): row.to_dict()
+    for _, row in summary_df.iterrows()
+    if str(row["SummaryID"]).strip() != ""
+}
 
 # =============================
 # Session state initialization
@@ -58,7 +67,7 @@ if not st.session_state.started:
 
 st.title(f"Project: {st.session_state.project_name}")
 
-step_id = st.session_state.current_step
+step_id = str(st.session_state.current_step).strip()
 step = questions.get(step_id)
 
 if step is None:
@@ -92,7 +101,7 @@ if step_type == "question":
 
 elif step_type == "summary":
 
-    summary_id = step["TriggerSummaryID"]
+    summary_id = str(step["TriggerSummaryID"]).strip()
     mapping = summaries.get(summary_id)
 
     if mapping is None:
