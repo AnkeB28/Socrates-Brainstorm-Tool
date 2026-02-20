@@ -216,12 +216,13 @@ if step_type == "question":
 
     # Prefill prior answer if present
     existing = st.session_state.answers.get(step_id, "")
-    answer = st.text_area("Jouw antwoord", value=existing, height=180)
+    answer = st.text_area("Jouw antwoord", value=existing, height=180, key=f"answer_{step_id}")
 
     c1, c2 = st.columns([1, 1])
     with c1:
         if st.button("Volgende", use_container_width=True):
             st.session_state.answers[step_id] = answer.strip()
+            st.session_state[f"answer_{step_id}"] = ""
             st.session_state.current_step = next_step
             st.rerun()
 
