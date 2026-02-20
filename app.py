@@ -95,14 +95,20 @@ elif step_type == "summary":
     summary_id = step["TriggerSummaryID"]
     mapping = summaries.get(summary_id)
 
-    if mapping:
-        included_ids = mapping["QuestionIDsIncluded"].split("|")
+    if mapping is None:
+    st.error(f"Geen mapping gevonden voor SummaryID: {summary_id}")
+    if st.button("Ga verder"):
+        st.session_state.current_step = next_step
+        st.rerun()
+    st.stop()
+      included_ids = [x.strip() for x in mapping["QuestionIDsIncluded"].split("|") if x.strip()]
         hint = mapping["PromptCategoryHint"]
 
         qa_text = ""
         for qid in included_ids:
             qid = qid.strip()
-            q_text = questions[qid]["QuestionText"]
+            q_row = questions.get(qid)
+            q_text = q_row["QuestionText"] if q_row is not None else "(onbekende vraag)"
             a_text = st.session_state.answers.get(qid, "(geen antwoord)")
             qa_text += f"{qid} — {q_text}\nAntwoord: {a_text}\n\n"
 
