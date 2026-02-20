@@ -1,0 +1,48 @@
+StepID,Phase,Topic,StepType,Order,QuestionText,InputType,Options,NextStepID,TriggerSummaryID
+G1,Grabbelton,Persoonlijke noodzaak/inspiratie/verbeelding,question,1,Waarom is dit verhaal voor jou de moeite waard om te vertellen?,longtext,,G2,
+G2,Grabbelton,Persoonlijke noodzaak/inspiratie/verbeelding,question,2,"Als één kijker zich diep gezien voelt door dit verhaal, wie is dat en waarom?",longtext,,G3,
+G3,Grabbelton,Beeld/Arena (speels),question,3,"Schrijf alle beelden op die je associeert met je hoofdpersoon. Wat zie je, hoor je, ruik je?",longtext,,G4,
+G4,Grabbelton,Beeld/Arena (speels),question,4,"Doe hetzelfde voor de arena/wereld. Welke plekken, licht, kleuren, geluiden?",longtext,,G5,
+G5,Grabbelton,Beeld/Arena (speels),question,5,"Doe hetzelfde voor je thema. Welke beelden, metaforen, symbolen of rituelen duiken op?",longtext,,G6,
+G6,Grabbelton,Protagonist (associatief),question,6,Wat wil je protagonist in zijn beste dagdroom? En wat vreest hij in zijn ergste nachtmerrie?,longtext,,G7,
+G7,Grabbelton,Protagonist (associatief),question,7,Welke soort gebeurtenis zou jouw personage dwingen te bewegen? Is dat een probleem of een uitnodiging?,longtext,,G8,
+G8,Grabbelton,Protagonist (associatief),question,8,"Als je hoofdpersoon nu als iemand uit je omgeving zou moeten beschrijven, op wie lijkt die dan en waarom?",longtext,,G9,
+G9,Grabbelton,Antagonistische krachten (zonder plot),question,9,"Als de antagonistische kracht in de film een natuurverschijnsel was, welk fenomeen zou het zijn?",longtext,,G10,
+G10,Grabbelton,Antagonistische krachten (zonder plot),question,10,"Welke krachten, systemen of mensen werken jouw hoofdpersoon vooral tegen (zonder nu al een plot te bedenken)?",longtext,,G11,
+G11,Grabbelton,Antagonistische krachten (zonder plot),question,11,"Welke redelijke, bijna sympathieke reden heeft de tegenkracht om te “winnen”?",longtext,,G12,
+G12,Grabbelton,Thema/Controlling Idea (zaadjes),question,12,Wat is de waarde die in jouw verhaal op het spel staat (bijvoorbeeld: vrijheid).,longtext,,G13,
+G13,Grabbelton,Thema/Controlling Idea (zaadjes),question,13,Wat is het tegenovergestelde daarvan (gevangenschap)?,longtext,,G14,
+G14,Grabbelton,Thema/Controlling Idea (zaadjes),question,14,Verzin uit de losse pols wat beelden/ scènes die de waarden in je verhaal zo ver mogelijk brengen.,longtext,,G_SUM1,
+G_SUM1,Grabbelton,Samenvatting,summary,15,Samenvatting Grabbelton – Thematiek,none,,U1,SUM_PHASE1_THEMATIEK
+U1,Uitwerken grabbelton,Thematiek,question,16,Wat zijn de grootste tegenstellingen in je verhaal?,longtext,,U2,
+U2,Uitwerken grabbelton,Thematiek,question,17,Kan je die zowel inhoudelijk als visueel vergroten of uitbreiden?,longtext,,U3,
+U3,Uitwerken grabbelton,Thematiek,question,18,Noem 3 situaties waarin tijd ineens schaars wordt — wat maakt dat spannend in jouw filmtaal.,longtext,,G_SUM2,
+G_SUM2,Uitwerken grabbelton,Samenvatting,summary,19,Samenvatting Grabbelton – Arena/Beeld,none,,U4,SUM_PHASE1_ARENA_BEELD
+U4,Uitwerken grabbelton,Arena/Beeld,question,20,"Wat zijn de regels, rituelen en gebruiken in je wereld?",longtext,,U5,
+U5,Uitwerken grabbelton,Arena/Beeld,question,21,Wat is je opening image en final image die de ontwikkeling van de hoofdpersoon in metafoor vangen?,longtext,,G_SUM3,
+G_SUM3,Uitwerken grabbelton,Samenvatting,summary,22,Samenvatting Grabbelton – Protagonist,none,,U6,SUM_PHASE1_PROTAGONIST
+U6,Uitwerken grabbelton,Protagonist,question,23,Wat wil je protagonist het allerliefst (bewust verlangen)?,longtext,,U7,
+U7,Uitwerken grabbelton,Protagonist,question,24,Is dat intern of extern?,longtext,,U8,
+U8,Uitwerken grabbelton,Protagonist,question,25,Is het verlangen simpel en helder?,longtext,,U9,
+U9,Uitwerken grabbelton,Protagonist,question,26,Wat is de belangrijkste antagonistische kracht voor jouw hoofdpersoon?,longtext,,U10,
+U10,Uitwerken grabbelton,Protagonist,question,27,Hoe kan je die antagonistische kracht op de climax maximaal inzetten om het je hoofdpersoon zo moeilijk mogelijk te maken?,longtext,,U_SUM1,
+U_SUM1,Uitwerken grabbelton,Samenvatting,summary,28,Samenvatting uitwerken Grabbelton - Motorisch moment,none,,S1,SUM_STRUCTUUR_MOTORISCH MOMENT
+S1,Structuur,Motorisch moment,question,29,Wat is het moment in je verhaal waarop er geen weg meer terug is voor je protagonist?,longtext,,S2,
+S2,Structuur,Motorisch moment,question,30,Op wat voor manier wordt het leven van je hoofdpersoon op het motorisch moment uit balans gebracht?,longtext,,S3,
+S3,Structuur,Motorisch moment,question,31,Welke vraag roept het motorisch moment op bij de kijker (waar wil die een antwoord op voordat de film afloopt)?,longtext,,S4,
+S4,Structuur,Motorisch moment,question,32,Welke minimale informatie is nodig vóór het motorisch moment?,longtext,,S5,
+S5,Structuur,Motorisch moment,question,33,En hoe kan je die informatie verstoppen in echte story events om expositie te vermijden?,longtext,,U_SUM2,
+U_SUM2,Structuur,Samenvatting,summary,34,Samenvatting uitwerken Grabbelton - Climax1,none,,S6,SUM_STRUCTUUR_CLIMAX1
+S6,Structuur,Climax,question,35,"Welke waarde wordt in de climax op een grote, onomkeerbare manier verschoven?",longtext,,U_SUM3,
+U_SUM3,Structuur,Samenvatting,summary,36,Samenvatting uitwerken Grabbelton - Climax2,none,,S7,SUM_STRUCTUUR_CLIMAX2
+S7,Structuur,Climax,question,37,Voorafgaand aan de climax zit de ‘crisis decision’. Wat is het grote dilemma op dat crisis-moment (keuze tussen twee goeden of twee kwaden)?,longtext,,U_SUM4,
+U_SUM4,Structuur,Samenvatting,summary,38,Samenvatting uitwerken Grabbelton - Lange lijn,none,,S8,SUM_STRUCTUUR_LANGE LIJN
+S8,Structuur,Lange lijn,question,39,"Omschrijf de drie akten als these (life as it is), antithese (wereld op z'n kop), synthese (best of both worlds).",longtext,,S9,
+S9,Structuur,Lange lijn,question,40,"Wat is je ‘all is lost’? Het dieptepunt, het punt waarop je hoofdpersoon niet dieper kan zakken en alle hoop verloren lijkt?",longtext,,S10,
+S10,Structuur,Lange lijn,question,41,En is er ook een ‘vleugje dood’ op dat dieptepunt? In beeld of in taal?,longtext,,S_SUM1,
+S_SUM1,Structuur,Samenvatting,summary,42,"Korte samenvatting van de belangrijkste structurele punten (motorisch moment, climax, lange lijn).",none,,T1,SUM_PHASE4_OVERZICHT
+T1,Treatment/checklist scène niveau,Step-out line,question,43,Schrijf nu een step-out line op basis van de input.,stepoutline,,T2,
+T2,Treatment/checklist scène niveau,Step-out line verbeteren,question,44,Is je climax en je controlling idea waarachtig naar jezelf?,longtext,,T3,
+T3,Treatment/checklist scène niveau,Step-out line verbeteren,question,45,Geloof je in de betekenis van je verhaal? Waarom (ervaringen)?,longtext,,T4,
+T4,Treatment/checklist scène niveau,Step-out line verbeteren,question,46,Wat is de ontwikkeling in het verhaal en wordt dat voelbaar gemaakt door de opening image en final image?,longtext,,FIN,
+FIN,Treatment/checklist scène niveau,Einde,summary,47,Dit is het einde van deze versie van je brainstorm. Bekijk je samenvatting en step-out line als startpunt voor verdere uitwerking.,none,,,SUM_FIN

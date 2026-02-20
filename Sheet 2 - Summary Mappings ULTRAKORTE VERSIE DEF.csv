@@ -1,0 +1,15 @@
+SummaryID,Phase,Category,QuestionIDsIncluded,PromptCategoryHint
+SUM_PHASE1_THEMATIEK,Uitwerken grabbelton,Thematiek,G1|G2|G12|G13,"Vat kort samen welke thematische lijnen, vragen en controlling ideas de gebruiker heeft genoemd. Voeg geen nieuwe ideeën toe."
+SUM_PHASE1_ARENA_BEELD,Uitwerken grabbelton,Arena/Beeld,G3|G4|G5,Maak een korte beschrijving van de arena en de belangrijkste beelden of sfeer die de gebruiker heeft genoemd. Geen nieuwe beelden verzinnen.
+SUM_PHASE1_PROTAGONIST,Uitwerken grabbelton,Protagonist,G6|G7|G8|G9|G10|G11|G14,"Vat samen wie de protagonist lijkt te zijn, welke eigenschappen en welke krachten er tegenover hem/haar/die staan. Blijf bij de bestaande antwoorden."
+SUM_STRUCTUUR_MOTORISCH MOMENT,Structuur,Motorisch moment,G6|G7|U1|U6|U7|U8,Geef een korte samenvatting van motorisch moment zoals de gebruiker die heeft beschreven. Voeg niets toe.
+SUM_STRUCTUUR_CLIMAX1,Structuur,Climax,G6|G9|G10|G12|G13|G14|S3,Geef een korte samenvatting van de climax zoals de gebruiker die heeft beschreven. Voeg niets toe.
+SUM_STRUCTUUR_CLIMAX2,Structuur,Climax,G11|G43|G49|U10|S3,Geef een korte samenvatting van de climax zoals de gebruiker die heeft beschreven. Voeg niets toe.
+SUM_STRUCTUUR_LANGE LIJN,Structuur,Lange lijn,G10|U3|U5|U6|U9|S6,Geef een korte samenvatting van de ontwikkeling van de protagonist zoals de gebruiker die heeft beschreven. Voeg niets toe.
+SUM_PHASE4_OVERZICHT,Structuur,Overzicht,S2|S3|S6|S7|S8|S9,"Geef een samenvatting van de belangrijkste structurele punten (motorisch moment, climax, plotpoints, lange lijn)."
+SUM_FIN,Treatment/checklist scène niveau,Overzicht,T1|T4|G3|G12|U1|U4|U5,"Maak een visueel aansprekende samenvatting van de belangrijkste waarden, antagonistische krachten, beelden en de ontwikkeling van het hoofdpersonage."
+SUM_PHASE4_THEMA,Treatment/checklist scène niveau,Thema/inspiratie/lijn,,"Vat in enkele zinnen het thematische en inhoudelijke spoor samen, inclusief persoonlijke noodzaak en centrale stelling. Geen nieuwe interpretaties."
+SUM_PHASE4_ARENA,Treatment/checklist scène niveau,Arena,,"Vat de belangrijkste elementen van de arena samen: waar, wanneer, sfeer, terugkerende beelden. Geen nieuwe elementen verzinnen."
+SUM_PHASE4_PROTAGONIST,Treatment/checklist scène niveau,Protagonist,,"Vat kort samen wie de protagonist is, wat hij/zij/die wil en welke krachten tegenover hem/haar/die staan."
+SUM_PHASE4_BEELD_GELUID,Treatment/checklist scène niveau,Beeld en geluid,,"Vat de ideeën voor beeld, toon, stijl en eventueel geluid samen, puur op basis van de ingevulde antwoorden."
+SUM_PHASE4_PLOTPOINTS,Treatment/checklist scène niveau,Belangrijkste plotpoints,,"Maak een korte lijst van de belangrijkste plotpoints: opening image (indien genoemd), motorisch moment, midpoint (indien genoemd), all is lost (indien genoemd), climax en final image. Vul niets zelf in als het niet expliciet genoemd is."
