@@ -61,7 +61,7 @@ st.title(f"Project: {st.session_state.project_name}")
 step_id = st.session_state.current_step
 step = questions.get(step_id)
 
-if not step:
+if step is None:
     st.error("Onbekende stap.")
     st.stop()
 
